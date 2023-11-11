@@ -7,7 +7,8 @@ std::string problemSolution4(const std::string &macAddress) {
     int dec = 0;
     if(macAddress == "FF:FF:FF:FF:FF:FF"){
         result = "Broadcast";
-    }else{
+    }
+    else{
         for(int i=0;i<2;i++){
             if(i==0){
                 if(macAddress[0]>='0' && macAddress[0]<='9'){

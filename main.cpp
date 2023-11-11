@@ -31,6 +31,7 @@ int main() {
     cout<<text3<<endl;
     cout<<endl;
 
+
     cout << "Problem 4\n";
     string text4, res4;
     cin>>text4;
