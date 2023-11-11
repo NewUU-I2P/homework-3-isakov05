@@ -9,7 +9,8 @@ std:: string problemSolution3(float height, char S) {
                 text = "Short";
             }else if(height>=1.85){
                 text = "Tall";
-            }else
+            }
+            else
                 text = "Normal";
             break;
         case 0:
